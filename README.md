@@ -18,10 +18,10 @@
 <h3>docker build -t <dockerfile></h3> # builds dockerfile for current directory
   ex: docker build -t example
   
-<h3>docker container stop <hash></h3>
+<h3>docker stop <container id></h3> # stops a running container
   
-<h3>docker container kill <hash></h3>
+<h3>docker kill <container id></h3> # kills a running container (basically cmd + q)
   
-</h3>docker container rm <image id></h3>
+<h3>docker rm <container id></h3> #removes a docker container from the list of available containers
   
  
