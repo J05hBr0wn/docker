@@ -12,16 +12,19 @@
 <h3>docker image ls [-a]</h3> # shows the list of runnable docker images
 
 <h3>docker container ls [-a]</h3> # shows the list of docker containers currently running
-
-<h3>docker run [dockerfile]</h3> runs a built dockerfile
   
 <h3>docker build -t [dockerfile]</h3> # builds dockerfile for current directory
   ex: docker build -t example
+  
+<h3>docker run [dockerfile]</h3> runs a built dockerfile
   
 <h3>docker stop [container id]</h3> # stops a running container
   
 <h3>docker kill [container id]</h3> # kills a running container (basically cmd + q)
   
 <h3>docker rm [container id]</h3> #removes a docker container from the list of available containers
+
+<h3>docker container prune</h3> # removes ALL docker containers saved on your computer
+
+<h3>docker container rename <container id/name> <rename value> </h3> # Renames a docker for easier referencing
   
- 
