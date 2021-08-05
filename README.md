@@ -1,5 +1,7 @@
 # docker
-<h1>List of useful docker commands</h1>
+<h1>List of useful docker commands (that I have used)</h1>
+
+<h2>Base Docker</h2>
 
 <h3>docker container --help</h3> # lists all available docker commands
 
@@ -26,5 +28,6 @@
 
 <h3>docker container prune</h3> # removes ALL docker containers saved on your computer
 
-<h3>docker container rename <container id/name> <rename value> </h3> # Renames a docker for easier referencing
-  
+<h3>docker container rename [container id/name] [rename value] </h3> # Renames a docker for easier referencing
+
+<h2>Docker Compose</h2>  
